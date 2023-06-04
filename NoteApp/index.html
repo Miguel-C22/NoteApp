@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Adds a Icon To phones and tables-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!--Adds a Icon to the browser tab icon-->
+    <link rel="icon" href="images/NoteImage.png"> 
+
+    <title>Note App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="imgContainer">
+        <img src="images/NoteImage.png" alt="" width="225">
+        <h1>NOTE APP</h1>
+    </div>
+  
+    
+    <form action="">
+        <div id="inputs" class="inputs">
+            <input type="text" placeholder="Title..." id="title">
+            <input type="text" placeholder="Note..." id="note">
+        </div>
+        <div class="formBtns"id="formBtns">
+            <span class="spanButtons">
+                <button id="submitFormBtn">Submit</button>
+                <button id="closeFormBtn">Close</button>
+            </span>
+        </div>
+    </form>
+
+    <h2>No Notes Yet...</h2>
+
+    <div id="displayNotes"></div>
+    <div class="modal" id="modal"></div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
